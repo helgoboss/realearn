@@ -1,0 +1,16 @@
+=== Arturia MiniLab 3
+
+This keyboard works, with the following features:
+* All Encoders and Faders work
+* All Pads work (incl. the 8 on Bank B)
+* Transport control works
+* Feedback works for Pads (white) and transport control (in respective color)
+** For this, there is a mapping for the shift button to ReaLearn: Send feedback to all instances
+
+[discrete]
+==== Information / Limitations
+
+* Encoders are absolute on the MiniLab 3 and currently cannot be changed via 
+Arturia's https://www.arturia.com/support/downloads&manuals[MIDI Control Center] as for the MiniLab MkII.
+* With the current mapping, encoders display their current value that the MiniLab 3 "thinks", but this doesn't update on MIDI feedback.
+** Currently working on enabling feedback to the display, which should remove this "limitation".
