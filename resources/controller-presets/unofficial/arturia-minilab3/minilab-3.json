@@ -1,0 +1,2547 @@
+{
+  "version": "2.14.0",
+  "name": "MiniLab 3",
+  "defaultGroup": {},
+  "groups": [
+    {
+      "id": "XpNYHekIfFIerLxnBbPR_",
+      "name": "Transport Control"
+    }
+  ],
+  "mappings": [
+    {
+      "id": "519a355d-ef3d-40ce-8444-0313820d67f3",
+      "name": "Enc Black",
+      "source": {
+        "channel": 0,
+        "number": 28,
+        "character": 3,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 10
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      }
+    },
+    {
+      "id": "lMVtPeocLbqYDIb35uvZa",
+      "name": "Enc 1",
+      "source": {
+        "channel": 0,
+        "number": 86,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 1
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      }
+    },
+    {
+      "id": "6345b742-4cfd-422d-b568-c88753f6437a",
+      "name": "Enc 2",
+      "source": {
+        "channel": 0,
+        "number": 87,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 1
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementIndex": 1,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "3cebe96b-8f55-41cb-9940-bf27fea94765",
+      "name": "Enc 3",
+      "source": {
+        "channel": 0,
+        "number": 89,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 1
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementIndex": 2,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "467831e8-c382-424c-a0c5-3de880a8681c",
+      "name": "Enc 4",
+      "source": {
+        "channel": 0,
+        "number": 90,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementIndex": 3,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "0d31ec2e-994e-4819-b08a-5e0ba1de7b48",
+      "name": "Enc 5",
+      "source": {
+        "channel": 0,
+        "number": 110,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 1
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementIndex": 4,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "0f349c16-e68b-47e4-8972-15345451d3a6",
+      "name": "Enc 6",
+      "source": {
+        "channel": 0,
+        "number": 111,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementIndex": 5,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "b01cdd01-d0bc-4f07-9b04-97fceddbc4fc",
+      "name": "Enc 7",
+      "source": {
+        "channel": 0,
+        "number": 116,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementIndex": 6,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "81d8da2d-3e20-4d5b-9084-be54f82d9c78",
+      "name": "Enc 8",
+      "source": {
+        "channel": 0,
+        "number": 117,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementIndex": 7,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "cb722ee0-8282-4643-8e8c-443828ec7182",
+      "name": "Pitch bend",
+      "source": {
+        "type": 3,
+        "channel": 0,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementIndex": 16,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "60bc9ca2-6a62-4fa7-bd11-261877cf0d00",
+      "name": "Modulation",
+      "source": {
+        "channel": 0,
+        "number": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementIndex": 17,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "ca6e8540-a873-4e38-85f5-55118a4c60bd",
+      "name": "Repeat",
+      "groupId": "XpNYHekIfFIerLxnBbPR_",
+      "source": {
+        "channel": 0,
+        "number": 105,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": "cycle",
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "fGywwvCJQpHTnvEtX7CvC",
+      "name": "Repeat Feedback",
+      "groupId": "XpNYHekIfFIerLxnBbPR_",
+      "source": {
+        "type": 10,
+        "channel": 9,
+        "number": 36,
+        "isRegistered": false,
+        "is14Bit": false,
+        "rawMidiPattern": "F0 00 20 6B 7F 42 02 02 16 57 [0gf1 dcba] [00fe 1c00] 00 F7",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5,
+        "feedbackColor": {
+          "prop": "target.track.color"
+        }
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": "cycle",
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "controlIsEnabled": false,
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "C3jvkPyVORDXnarNIAC1x",
+      "name": "Stop",
+      "groupId": "XpNYHekIfFIerLxnBbPR_",
+      "source": {
+        "channel": 0,
+        "number": 106,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": "stop",
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "bdf00a1b-6e02-4d14-ad75-57b039a525c5",
+      "name": "Stop Feedback",
+      "groupId": "XpNYHekIfFIerLxnBbPR_",
+      "source": {
+        "type": 10,
+        "channel": 9,
+        "number": 36,
+        "isRegistered": false,
+        "is14Bit": false,
+        "rawMidiPattern": "F0 00 20 6B 7F 42 02 02 16 58 [0gf1 dcba] [0gf1 dcba] [0gf1 dcba] F7",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5,
+        "feedbackColor": {
+          "prop": "target.track.color"
+        }
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": "stop",
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "controlIsEnabled": false,
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "VPb7TfaUE9c5zARzOCyze",
+      "name": "Play",
+      "groupId": "XpNYHekIfFIerLxnBbPR_",
+      "source": {
+        "channel": 0,
+        "number": 107,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": "play",
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "feedbackIsEnabled": false,
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "qjbcIOrNh6bGRgLerJyCR",
+      "name": "Play Feedback",
+      "groupId": "XpNYHekIfFIerLxnBbPR_",
+      "source": {
+        "type": 10,
+        "channel": 9,
+        "number": 36,
+        "isRegistered": false,
+        "is14Bit": false,
+        "rawMidiPattern": "F0 00 20 6B 7F 42 02 02 16 59 00 [0gf1 dcba] 00 F7",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5,
+        "feedbackColor": {
+          "prop": "target.track.color"
+        }
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": "play",
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "controlIsEnabled": false,
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "rr3RfXxdFitBgbK8VlVu3",
+      "name": "Record",
+      "groupId": "XpNYHekIfFIerLxnBbPR_",
+      "source": {
+        "channel": 0,
+        "number": 108,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": "record",
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "GWx99VF4aKKJFv8RsCdvk",
+      "name": "Record Feedback",
+      "groupId": "XpNYHekIfFIerLxnBbPR_",
+      "source": {
+        "type": 10,
+        "channel": 9,
+        "number": 36,
+        "isRegistered": false,
+        "is14Bit": false,
+        "rawMidiPattern": "F0 00 20 6B 7F 42 02 02 16 5A [0gf1 dcba] 00 00 F7",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5,
+        "feedbackColor": {
+          "prop": "target.track.color"
+        }
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": "record",
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "controlIsEnabled": false,
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "ja4EHLVeH8lP40le5b0Yt",
+      "name": "Pad 1",
+      "source": {
+        "type": 1,
+        "channel": 9,
+        "number": 36,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "feedbackIsEnabled": false,
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "7ZpZp6wx-BM-PQpWnD5Pa",
+      "name": "Pad 1 Feedback",
+      "source": {
+        "type": 10,
+        "channel": 9,
+        "number": 36,
+        "isRegistered": false,
+        "is14Bit": false,
+        "rawMidiPattern": "F0 00 20 6B 7F 42 02 02 16 34 [0gfe dcba] [0nml kjih] [0gfe dcba] F7",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "controlIsEnabled": false
+    },
+    {
+      "id": "66c616c9-1931-48a8-a665-5f3b56d08df8",
+      "name": "Pad 2",
+      "source": {
+        "type": 1,
+        "channel": 9,
+        "number": 37,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 1,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "4aa2936e-8eca-4721-9b0b-bed4fe1402fc",
+      "name": "Pad 2 Feedback",
+      "source": {
+        "type": 10,
+        "channel": 9,
+        "number": 36,
+        "isRegistered": false,
+        "is14Bit": false,
+        "rawMidiPattern": "F0 00 20 6B 7F 42 02 02 16 35 [0gfe dcba] [0nml kjih] [0gfe dcba] F7",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 1,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "controlIsEnabled": false
+    },
+    {
+      "id": "5b64b055-2d76-456e-9ecc-5c800cf417bc",
+      "name": "Pad 3",
+      "source": {
+        "type": 1,
+        "channel": 9,
+        "number": 38,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 2,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "a12a6238-02b2-4e31-a321-e71f03d72bb9",
+      "name": "Pad 3 Feedback",
+      "source": {
+        "type": 10,
+        "channel": 9,
+        "number": 36,
+        "isRegistered": false,
+        "is14Bit": false,
+        "rawMidiPattern": "F0 00 20 6B 7F 42 02 02 16 36 [0gfe dcba] [0nml kjih] [0gfe dcba] F7",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 2,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "controlIsEnabled": false
+    },
+    {
+      "id": "b7eee5bf-85db-440b-a64d-51777aac47af",
+      "name": "Pad 4",
+      "source": {
+        "type": 1,
+        "channel": 9,
+        "number": 39,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 3,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "6bcacf10-fe40-4328-bb10-de5911123f7f",
+      "name": "Pad 4 Feedback",
+      "source": {
+        "type": 10,
+        "channel": 9,
+        "number": 36,
+        "isRegistered": false,
+        "is14Bit": false,
+        "rawMidiPattern": "F0 00 20 6B 7F 42 02 02 16 37 [0gfe dcba] [0nml kjih] [0gfe dcba] F7",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 3,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "controlIsEnabled": false
+    },
+    {
+      "id": "3196894f-1061-4ea5-8dde-bb3128fbbcfc",
+      "name": "Pad 5",
+      "source": {
+        "type": 1,
+        "channel": 9,
+        "number": 40,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 4,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "82416d25-7c7f-477f-8e6a-28a7cc1e9d13",
+      "name": "Pad 5 Feedback",
+      "source": {
+        "type": 10,
+        "channel": 9,
+        "number": 36,
+        "isRegistered": false,
+        "is14Bit": false,
+        "rawMidiPattern": "F0 00 20 6B 7F 42 02 02 16 38 [0gfe dcba] [0nml kjih] [0gfe dcba] F7",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 4,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "controlIsEnabled": false
+    },
+    {
+      "id": "56f4ee62-8810-4349-b38f-ec9d0de2b5e4",
+      "name": "Pad 6",
+      "source": {
+        "type": 1,
+        "channel": 9,
+        "number": 41,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 5,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "bd784c4c-bfb9-451a-a163-24994f2a32ec",
+      "name": "Pad 6 Feedback",
+      "source": {
+        "type": 10,
+        "channel": 9,
+        "number": 36,
+        "isRegistered": false,
+        "is14Bit": false,
+        "rawMidiPattern": "F0 00 20 6B 7F 42 02 02 16 39 [0gfe dcba] [0nml kjih] [0gfe dcba] F7",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 5,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "controlIsEnabled": false
+    },
+    {
+      "id": "c2430dd0-5367-4a0b-b0e0-87ba8222d357",
+      "name": "Pad 7",
+      "source": {
+        "type": 1,
+        "channel": 9,
+        "number": 42,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 6,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "f9adda9a-db0b-4ab2-ad5d-3a8f299e58a5",
+      "name": "Pad 7 Feedback",
+      "source": {
+        "type": 10,
+        "channel": 9,
+        "number": 36,
+        "isRegistered": false,
+        "is14Bit": false,
+        "rawMidiPattern": "F0 00 20 6B 7F 42 02 02 16 3a [0gfe dcba] [0nml kjih] [0gfe dcba] F7",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 6,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "controlIsEnabled": false
+    },
+    {
+      "id": "3c9e3b28-5ec1-4448-b5d8-5852c28eee5d",
+      "name": "Pad 8",
+      "source": {
+        "type": 1,
+        "channel": 9,
+        "number": 43,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 7,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "ca55acad-ae52-4c72-9468-12b49856de86",
+      "name": "Pad 8 Feedback",
+      "source": {
+        "type": 10,
+        "channel": 9,
+        "number": 36,
+        "isRegistered": false,
+        "is14Bit": false,
+        "rawMidiPattern": "F0 00 20 6B 7F 42 02 02 16 3b [0gfe dcba] [0nml kjih] [0gfe dcba] F7",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 7,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "controlIsEnabled": false
+    },
+    {
+      "id": "a4f06110-5074-4f4c-84b5-adf14215dec2",
+      "name": "Pad 9",
+      "source": {
+        "type": 1,
+        "channel": 9,
+        "number": 44,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 8,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "b6e3ab14-f6c4-404f-ac30-7576ef1544a1",
+      "name": "Pad 9 Feedback",
+      "source": {
+        "type": 10,
+        "channel": 9,
+        "number": 36,
+        "isRegistered": false,
+        "is14Bit": false,
+        "rawMidiPattern": "F0 00 20 6B 7F 42 02 02 16 44 [0gfe dcba] [0nml kjih] [0gfe dcba] F7",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 8,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "controlIsEnabled": false
+    },
+    {
+      "id": "73bc6ff7-e507-4bcb-b2ce-cc1831165741",
+      "name": "Pad 10",
+      "source": {
+        "type": 1,
+        "channel": 9,
+        "number": 45,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 9,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "7f30fbfd-d870-4023-97e3-95206786d6d7",
+      "name": "Pad 10 Feedback",
+      "source": {
+        "type": 10,
+        "channel": 9,
+        "number": 36,
+        "isRegistered": false,
+        "is14Bit": false,
+        "rawMidiPattern": "F0 00 20 6B 7F 42 02 02 16 45 [0gfe dcba] [0nml kjih] [0gfe dcba] F7",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 9,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "controlIsEnabled": false
+    },
+    {
+      "id": "29801c9a-63bc-401e-9d45-7601391ebf4a",
+      "name": "Pad 11",
+      "source": {
+        "type": 1,
+        "channel": 9,
+        "number": 46,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 10,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "dd7ed76f-a2df-429e-b43a-4256518c015a",
+      "name": "Pad 11 Feedback",
+      "source": {
+        "type": 10,
+        "channel": 9,
+        "number": 36,
+        "isRegistered": false,
+        "is14Bit": false,
+        "rawMidiPattern": "F0 00 20 6B 7F 42 02 02 16 46 [0gfe dcba] [0nml kjih] [0gfe dcba] F7",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 10,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "controlIsEnabled": false
+    },
+    {
+      "id": "a7b77190-9efc-4122-988f-138c19bd3554",
+      "name": "Pad 12",
+      "source": {
+        "type": 1,
+        "channel": 9,
+        "number": 47,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 11,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "1d88f868-9a7b-4c5c-a33a-e42507a23a85",
+      "name": "Pad 12 Feedback",
+      "source": {
+        "type": 10,
+        "channel": 9,
+        "number": 36,
+        "isRegistered": false,
+        "is14Bit": false,
+        "rawMidiPattern": "F0 00 20 6B 7F 42 02 02 16 47 [0gfe dcba] [0nml kjih] [0gfe dcba] F7",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 11,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "controlIsEnabled": false
+    },
+    {
+      "id": "69bf94b8-2e60-429f-81f2-6ed88117acd9",
+      "name": "Pad 13",
+      "source": {
+        "type": 1,
+        "channel": 9,
+        "number": 48,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 12,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "dc2503ba-892f-4a53-b5c5-de457764e712",
+      "name": "Pad 13 Feedback",
+      "source": {
+        "type": 10,
+        "channel": 9,
+        "number": 36,
+        "isRegistered": false,
+        "is14Bit": false,
+        "rawMidiPattern": "F0 00 20 6B 7F 42 02 02 16 48 [0gfe dcba] [0nml kjih] [0gfe dcba] F7",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 12,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "controlIsEnabled": false
+    },
+    {
+      "id": "18d0b05e-4c87-454f-8e01-f49b12bac4a8",
+      "name": "Pad 14",
+      "source": {
+        "type": 1,
+        "channel": 9,
+        "number": 49,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 13,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "63e63b0f-b0ea-4a84-984d-c4087907eb6f",
+      "name": "Pad 14 Feedback",
+      "source": {
+        "type": 10,
+        "channel": 9,
+        "number": 36,
+        "isRegistered": false,
+        "is14Bit": false,
+        "rawMidiPattern": "F0 00 20 6B 7F 42 02 02 16 49 [0gfe dcba] [0nml kjih] [0gfe dcba] F7",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 13,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "controlIsEnabled": false
+    },
+    {
+      "id": "5b044469-44a6-46b2-80fd-dc0781b9ec9e",
+      "name": "Pad 15",
+      "source": {
+        "type": 1,
+        "channel": 9,
+        "number": 50,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 14,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "d5069d82-eba1-46b2-a468-bcd854e46a85",
+      "name": "Pad 15 Feedback",
+      "source": {
+        "type": 10,
+        "channel": 9,
+        "number": 36,
+        "isRegistered": false,
+        "is14Bit": false,
+        "rawMidiPattern": "F0 00 20 6B 7F 42 02 02 16 4A [0gfe dcba] [0nml kjih] [0gfe dcba] F7",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 14,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "controlIsEnabled": false
+    },
+    {
+      "id": "8eb620c0-1535-4d0f-bdec-a0b9b1c280c8",
+      "name": "Pad 16",
+      "source": {
+        "type": 1,
+        "channel": 9,
+        "number": 51,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 15,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "6978dee3-c1c5-4fb0-87ca-63859f725ce1",
+      "name": "Pad 16 Feedback",
+      "source": {
+        "type": 10,
+        "channel": 9,
+        "number": 36,
+        "isRegistered": false,
+        "is14Bit": false,
+        "rawMidiPattern": "F0 00 20 6B 7F 42 02 02 16 4B [0gfe dcba] [0nml kjih] [0gfe dcba] F7",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 15,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "controlIsEnabled": false
+    },
+    {
+      "id": "f099d603-08f2-4ade-b626-c5f1c276ae85",
+      "name": "Pad 1 Pressure",
+      "source": {
+        "type": 7,
+        "channel": 9,
+        "number": 36,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementIndex": 18,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "2635538c-40e3-407a-8586-6a653ac29898",
+      "name": "Pad 2 Pressure",
+      "source": {
+        "type": 7,
+        "channel": 9,
+        "number": 37,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementIndex": 19,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "834a6411-fc6a-47d2-98c7-b36f44948f7b",
+      "name": "Pad 3 Pressure",
+      "source": {
+        "type": 7,
+        "channel": 9,
+        "number": 38,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementIndex": 20,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "e3ba4f02-d0d9-4946-8795-a9900a28f1ca",
+      "name": "Pad 4 Pressure",
+      "source": {
+        "type": 7,
+        "channel": 9,
+        "number": 39,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementIndex": 21,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "2c6f5504-0a1c-4864-a77c-f89558a42f03",
+      "name": "Pad 5 Pressure",
+      "source": {
+        "type": 7,
+        "channel": 9,
+        "number": 40,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementIndex": 22,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "ae172fd3-82e1-4b84-824a-a89a95cf3325",
+      "name": "Pad 6 Pressure",
+      "source": {
+        "type": 7,
+        "channel": 9,
+        "number": 41,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementIndex": 23,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "8cef1004-b91a-421b-881e-a8152191d8e3",
+      "name": "Pad 7 Pressure",
+      "source": {
+        "type": 7,
+        "channel": 9,
+        "number": 42,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementIndex": 24,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "7fcd8141-301e-4295-9164-b4b42708f3e7",
+      "name": "Pad 8 Pressure",
+      "source": {
+        "type": 7,
+        "channel": 9,
+        "number": 43,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementIndex": 25,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "92ba3ee7-f257-48e1-ac60-8694d4c08628",
+      "name": "Pad 9 Pressure",
+      "source": {
+        "type": 7,
+        "channel": 9,
+        "number": 44,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementIndex": 26,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "9bcc372a-ee09-4b81-8d8c-18bcc7f2de4e",
+      "name": "Pad 10 Pressure",
+      "source": {
+        "type": 7,
+        "channel": 9,
+        "number": 45,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementIndex": 27,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "bb9ef68e-f4ff-4cc2-a567-3fea5de39b6a",
+      "name": "Pad 11 Pressure",
+      "source": {
+        "type": 7,
+        "channel": 9,
+        "number": 46,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementIndex": 28,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "8a01b5dc-a60b-4012-8af9-755ad8ad060f",
+      "name": "Pad 12 Pressure",
+      "source": {
+        "type": 7,
+        "channel": 9,
+        "number": 47,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementIndex": 29,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "b444f0a6-0bef-4816-b440-9e5c2094ac57",
+      "name": "Pad 13 Pressure",
+      "source": {
+        "type": 7,
+        "channel": 9,
+        "number": 48,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementIndex": 30,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "7be4b7a5-f073-41ea-8e1b-d529848c4e9d",
+      "name": "Pad 14 Pressure",
+      "source": {
+        "type": 7,
+        "channel": 9,
+        "number": 49,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementIndex": 31,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "bba526e3-b949-4ff1-9258-f4a8e8667d37",
+      "name": "Pad 15 Pressure",
+      "source": {
+        "type": 7,
+        "channel": 9,
+        "number": 50,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementIndex": 32,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "749f8033-febe-4eae-9177-61a4d3e40a6d",
+      "name": "Pad 16 Pressure",
+      "source": {
+        "type": 7,
+        "channel": 9,
+        "number": 51,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementIndex": 33,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "31dd01f7-46c9-4c2f-93d5-af62e6ef8451",
+      "name": "Enc Black Push",
+      "source": {
+        "channel": 0,
+        "number": 118,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 16,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "70397c0e-2928-42ae-afc8-1507d437888d",
+      "name": "Sustain",
+      "source": {
+        "channel": 0,
+        "number": 64,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 18,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "ById",
+          "id": ""
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "Fi8Qyomkcrfxi_3fBGd_U",
+      "name": "Fader 1",
+      "source": {
+        "channel": 0,
+        "number": 14,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "type": 53,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementIndex": 34,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "W3S2yv71dRbSEWr0r3CTy",
+      "name": "Fader 2",
+      "source": {
+        "channel": 0,
+        "number": 15,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "type": 53,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementIndex": 35,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "6nDjkJPEQP6Q3mzt5SOAW",
+      "name": "Fader 3",
+      "source": {
+        "channel": 0,
+        "number": 30,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "type": 53,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementIndex": 36,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "sLHx4uOgVvm4HWEyeWsWm",
+      "name": "Fader 4",
+      "source": {
+        "channel": 0,
+        "number": 31,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "category": "virtual",
+        "type": 53,
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementIndex": 37,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    },
+    {
+      "id": "u4la7oQkohT2qZa0kzJ3T",
+      "name": "Shift",
+      "source": {
+        "channel": 0,
+        "number": 27,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "minStepFactor": 1,
+        "maxStepFactor": 5
+      },
+      "target": {
+        "type": 0,
+        "commandName": "REALEARN_SEND_ALL_FEEDBACK",
+        "fxAnchor": "id",
+        "useSelectionGanging": false,
+        "useTrackGrouping": false,
+        "seekBehavior": "Immediate",
+        "controlElementType": "button",
+        "controlElementIndex": 38,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "mouseAction": {
+          "kind": "MoveTo",
+          "axis": "Y"
+        },
+        "takeMappingSnapshot": {
+          "kind": "LastLoaded"
+        }
+      }
+    }
+  ]
+}
